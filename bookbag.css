@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav>h1{
+    background-color: crimson;
+    padding:10px ;
+}
+.bookcontainer{
+    width: 25%;
+      border-style: solid;
+    margin: 35px;
+    padding:10px ;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+}
+.bookcontainer h2{
+    color: crimson;
+    
+
+}
+.bookcontainer button{
+    background-color: crimson;
+    color: black;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-left: 8px;
+    margin-left: 31px;
+    border: none;
+}
+.add-button{
+    font-size: 72px;
+    
+    border-radius: 100%;
+
+    background-color: crimson;
+    color: white;
+    border: none;
+    float: right;
+    margin-right: 35px;
+}
+.popupoverlay{
+    opacity: 0.8;
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height:  100%;
+    top:  0%;
+    left:  0%;
+    display: none;
+}
+.popupbox{
+    background-color: crimson;
+    width: 40%;
+    padding: 40px;
+    position: absolute;
+    top: 20%;
+    left:20%;
+    z-index: 2;
+    display: none;
+}
+.popupbox input{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size:20px ;
+    border-bottom: solid black 2px;
+}
+.popupbox textarea{
+    background: transparent;
+    
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size:20px ;
+    border-bottom: solid black 2px;
+}
+.popupbox button{
+    background-color: black;
+    padding-left:20px ;
+    padding-right: 20px;
+    color: white;
+    padding:10px ;
+    border-radius: 35%;
+    border: none;
+}
+.popupbox input:focus{
+    outline: none;
+}

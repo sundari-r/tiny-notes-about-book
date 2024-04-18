@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksky Project</title>
+    <link rel="stylesheet" href="bookbag.css">
+    </head>
+<body>
+      <nav><h1>BookBag</h1></nav> 
+  <div class="container">
+    <div class="bookcontainer">
+        <h2>Eleanor Oliphant is Completely Fine</h2>
+        <h5>Gail Honeyman</h5>
+<p>Funny, touching and heartwarming, this popular book is the story of an ordinary office worker who leads a very boring and routine existence, surviving on frozen pizza. The story is told from Eleanor's point of view, as she learns to grow and adapt. This book will make you feel all the emotions and you won’t want it to end.</p>
+        <button onclick="deleteitem(event)">Delete</button>
+        </div>
+
+        <div class="bookcontainer">
+            <h2>The Fault in Our Stars</h2>
+            <h5>John Green            </h5>
+            <p>Romantic, witty and humorous, yet very sad, this is a book for hopeless romantics. Follow the love story between Hazel and Augustus who meet at a cancer support group for teens. The language is youthful and edgy, making it an engaging and lively read, and you will probably learn some new metaphors along the way!
+
+            </p>
+            <button onclick="deleteitem(event)">Delete</button>
+            </div>
+
+           <div class="popupoverlay"></div>
+    <div class="popupbox">
+        <h2>Add Book </h2>
+        <form>
+            <input type="text" placeholder="Book Title" id="booktitle">
+            <input type="text" placeholder="Book Author" id="bookauthor">
+            <textarea placeholder="Short Description" id="bookdescription"></textarea>
+            <button id="addbook">Add</button>
+            <button id="cancelbook">Cancel</button>
+        </form>
+    </div>
+    
+  </div> 
+  <button class="add-button" id="popup">+</button>
+  <script src="bookbag.js"></script>
+</body>
+</html>
